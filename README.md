@@ -81,11 +81,13 @@ Anda memerlukan Local Web Server untuk menjalankannya. Beberapa opsi yang bisa d
  * Node.js (install modul seperti http-server atau live-server).
 🚀 Cara Instalasi & Menjalankan
  * Clone repository ini ke komputer/HP Anda:
+   ```bash
    git clone [https://github.com/mikorayuki/web-shop-2025.git](https://github.com/mikorayuki/web-shop-2025.git)
-
+   ```
  * Masuk ke direktori project:
+ ```bash
    cd web-shop-2025
-
+ ```
  * Jalankan local server (Contoh menggunakan Python):
    python -m http.server 8000
 
@@ -93,6 +95,7 @@ Anda memerlukan Local Web Server untuk menjalankannya. Beberapa opsi yang bisa d
 💡 Contoh Penggunaan
 Untuk mengubah nama toko, kontak, atau menambah produk, Anda hanya perlu mengedit file shop-data.json.
 Contoh Menambah Produk Baru: Buka shop-data.json, lalu pada bagian array "products", tambahkan objek produk baru seperti ini:
+```json
 {
   "id": "item-003",
   "categoryId": "apkprem",
@@ -103,7 +106,7 @@ Contoh Menambah Produk Baru: Buka shop-data.json, lalu pada bagian array "produc
   "link": "[https://wa.me/083833826401](https://wa.me/083833826401)",
   "badge": "Promo"
 }
-
+```
 Catatan: Pastikan categoryId cocok dengan ID yang ada di dalam daftar "categories". Untuk panduan lebih lengkap, buka file panduan.html di browser Anda.
 🤝 Kontribusi
 Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur, atau meningkatkan tampilan:
