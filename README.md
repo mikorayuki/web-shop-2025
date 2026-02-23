@@ -1,3 +1,5 @@
+WEB SHOP
+
 ```markdown
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Web%20Shop%202025&fontSize=50&animation=fadeIn" width="100%">
