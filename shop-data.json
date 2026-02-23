@@ -1,0 +1,48 @@
+{
+    "shopInfo": {
+      "name": "mikorayuki store",
+      "tagline": "store mikorayuki",
+      "description": "Mikorayuki store sebuah store yang menyediakan jasa dan apk premium yang murah.",
+      "image": "https://files.catbox.moe/7wszre.jpg",
+      "hero": {
+        "title": "cari produk yang di inginkan",
+        "subtitle": "tempat murah kok disini"
+      },
+      "contact": {
+        "phone": "083833826401",
+        "email": "mikorayuki@mikorayuki.my.id",
+        "address": "Jl. sumenep sumekar no 12 sumenep jawa timur",
+        "whatsapp": "083833816401",
+        "instagram": "@mikorayuki_id",
+        "facebook": "mikorayuki"
+      }
+    },
+    "categories": [
+      {
+        "id": "apkprem",
+        "name": "apk premium"
+      }
+    ],
+    "products": [
+      {
+        "id": "apkprem",
+        "categoryId": "apkprem",
+        "name": "netflix",
+        "price": "Rp 10.000",
+        "description": "Earbuds wireless premium dengan noise cancelling, bass yang kuat, dan baterai tahan hingga 30 jam. Desain ergonomis yang nyaman untuk penggunaan sepanjang hari.",
+        "image": "https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg",
+        "link": "https://example.com/beli-earbuds",
+        "badge": "Terlaris"
+      },
+      {
+        "id": "apkprem",
+        "categoryId": "apkprem",
+        "name": "alightmotion",
+        "price": "Rp 1.299.000",
+        "description": "Jam tangan pintar dengan layar AMOLED, fitur kesehatan lengkap, tahan air 50m, dan baterai hingga 14 hari. Tampil stylish dengan berbagai pilihan strap.",
+        "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg",
+        "link": "https://example.com/beli-smartwatch",
+        "badge": "Baru"
+      }
+    ]
+  }
