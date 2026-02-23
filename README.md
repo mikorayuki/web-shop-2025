@@ -7,6 +7,7 @@
   <p>
     <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github" alt="Status">
     <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License MIT">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
@@ -115,8 +116,34 @@ Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur,
  * Lakukan commit perubahan Anda: git commit -m 'Menambahkan fitur keren'
  * Push ke branch tersebut: git push origin fitur-keren-saya
  * Buka Pull Request di GitHub.
-<div align="center">
-<p>Dibuat dengan ❤️ oleh <a href="https://mikorayuki.my.id">Mikorayuki</a></p>
-</div>
 
------
+---
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3px">
+  
+  <br/>
+
+  <table>
+    <tr>
+      <td align="center" style="border: none;">
+        <h3>✨ Attribution & Development</h3>
+        <p>Project ini telah dikembangkan kembali (<b>Redeveloped</b>) dengan penuh dedikasi.</p>
+        
+        <a href="https://mikorayuki.my.id">
+          <img src="https://img.shields.io/badge/Developed%20By-Mikorayuki-FF69B4?style=for-the-badge&logo=rocket&logoColor=white" alt="Mikorayuki Badge">
+        </a>
+        <p><i>"Based on an Open Source project with significant UI/UX improvements and performance optimization."</i></p>
+        
+        <br/>
+        <a href="https://mikorayuki.my.id" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Visit_My_Website-mikorayuki.my.id-blue?style=flat-square" alt="Website">
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+  
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&section=footer" width="100%">
+</div>
