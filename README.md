@@ -117,13 +117,9 @@ Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur,
  * Push ke branch tersebut: git push origin fitur-keren-saya
  * Buka Pull Request di GitHub.
 
----
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3px">
-  
   <br/>
-
   <table>
     <tr>
       <td align="center" style="border: none;">
