@@ -1,8 +1,5 @@
-WEB SHOP
-
-```markdown
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Web%20Shop%202025&fontSize=50&animation=fadeIn" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Web%20Shop%202025&fontSize=50&animation=fadeIn" width="100%" alt="Header Web Shop 2025">
   
   <h1>🛒 Web Shop 2025</h1>
   <p><i>Platform E-Commerce Modern, Dinamis & Responsif</i></p>
@@ -10,27 +7,51 @@ WEB SHOP
   <p>
     <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=github" alt="Status">
     <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   </p>
 </div>
 
 ---
 
+<details>
+  <summary><b>📑 Daftar Isi</b></summary>
+  <ol>
+    <li><a href="#-tentang-project">Tentang Project</a></li>
+    <li><a href="#-fitur-utama">Fitur Utama</a></li>
+    <li><a href="#-teknologi-yang-digunakan">Teknologi yang Digunakan</a></li>
+    <li><a href="#-susunan-project">Susunan Project</a></li>
+    <li><a href="#-prasyarat-instalasi">Prasyarat Instalasi</a></li>
+    <li><a href="#-cara-instalasi--menjalankan">Cara Instalasi & Menjalankan</a></li>
+    <li><a href="#-contoh-penggunaan">Contoh Penggunaan</a></li>
+    <li><a href="#-kontribusi">Kontribusi</a></li>
+  </ol>
+</details>
+
+---
+
 ## 📖 Tentang Project
 
-**Web Shop 2025** adalah platform e-commerce statis yang dirancang untuk menjadi ringan, cepat, dan mudah dikelola. Proyek ini sangat cocok untuk toko online skala kecil menengah atau portofolio. Keunggulan utama dari proyek ini adalah Anda tidak memerlukan database backend yang rumit; semua data toko, kategori, dan produk dikelola sepenuhnya melalui satu file JSON (`shop-data.json`).
+**Web Shop 2025** adalah platform e-commerce statis yang dirancang untuk menjadi ringan, cepat, dan mudah dikelola. Proyek ini sangat cocok untuk toko online skala kecil menengah atau sebagai portofolio web developer. 
+
+Keunggulan utama dari proyek ini adalah **tidak memerlukan database backend yang rumit**. Semua data toko, kategori, dan produk dikelola sepenuhnya dan dinamis melalui satu buah file JSON (`shop-data.json`).
+
+> 📸 **Screenshot Tampilan** > *(Tambahkan gambar screenshot project kamu di sini nantinya)* > `<img src="link-gambar-screenshot.jpg" alt="Preview Web Shop" width="800">`
 
 ## ✨ Fitur Utama
 
 - 🛍️ **Katalog Produk Dinamis:** Menampilkan daftar produk yang di-generate secara otomatis dari file JSON.
 - 📱 **Desain Super Responsif:** Tampilan menyesuaikan secara mulus di layar Desktop, Tablet, maupun Smartphone.
-- 🔍 **Pencarian & Filter Kategori:** Fitur pencarian produk real-time dan penyaringan berdasarkan kategori.
-- 🖼️ **Pop-up Detail Produk (Modal):** Pengguna dapat melihat detail produk tanpa harus berpindah halaman.
-- ⚙️ **Manajemen Tanpa Coding:** Tambah, edit, atau hapus produk cukup dengan mengubah teks di file `shop-data.json`.
-- ⚡ **Performa Tinggi:** Tidak ada waktu tunggu dari server database, memuat halaman secara instan.
+- 🔍 **Pencarian & Filter Kategori:** Fitur pencarian produk *real-time* dan penyaringan berdasarkan kategori.
+- 🖼️ **Pop-up Detail Produk (Modal):** Pengguna dapat melihat detail lengkap produk tanpa harus memuat ulang atau berpindah halaman.
+- ⚙️ **Manajemen Tanpa Coding:** Tambah, edit, atau hapus produk cukup dengan mengubah teks di file konfigurasi.
+- ⚡ **Performa Tinggi:** Memuat halaman secara instan tanpa waktu tunggu respon dari server database.
 
 ## 🛠️ Teknologi yang Digunakan
 
-Proyek ini dibangun murni menggunakan teknologi web standar tanpa framework JavaScript yang berat:
+Proyek ini dibangun murni menggunakan teknologi web standar tanpa *framework* yang berat:
+
 - **HTML5** untuk semantik dan struktur halaman.
 - **CSS3 (Vanilla)** dengan penerapan *Custom Properties (Variables)* untuk tema.
 - **JavaScript (ES6+)** untuk logika DOM, Fetch API, dan interaktivitas.
@@ -38,7 +59,7 @@ Proyek ini dibangun murni menggunakan teknologi web standar tanpa framework Java
 - **Animate.css** untuk animasi transisi halaman yang halus.
 - **Google Fonts** (Poppins & Montserrat) untuk tipografi modern.
 
-## 📂 Susunan Project (Project Structure)
+## 📂 Susunan Project
 
 ```text
 📁 web-shop-2025/
@@ -51,52 +72,27 @@ Proyek ini dibangun murni menggunakan teknologi web standar tanpa framework Java
 ├── 📄 shop-data.json    # "Database" utama toko (Konfigurasi info, kategori & produk)
 └── 📄 README.md         # Dokumentasi project ini
 
-```
+📋 Prasyarat Instalasi
+Karena proyek ini menggunakan fitur Fetch API JavaScript untuk memuat file shop-data.json, Anda tidak bisa membukanya hanya dengan klik ganda file index.html di browser (akan terkena pemblokiran aturan CORS).
+Anda memerlukan Local Web Server untuk menjalankannya. Beberapa opsi yang bisa digunakan:
+ * Ekstensi Live Server di Visual Studio Code.
+ * Ekstensi Web Server for Chrome.
+ * Python (jalankan python -m http.server di terminal).
+ * Node.js (install modul seperti http-server atau live-server).
+🚀 Cara Instalasi & Menjalankan
+ * Clone repository ini ke komputer/HP Anda:
+   git clone [https://github.com/mikorayuki/web-shop-2025.git](https://github.com/mikorayuki/web-shop-2025.git)
 
-## 📋 Prasyarat Instalasi
+ * Masuk ke direktori project:
+   cd web-shop-2025
 
-Karena proyek ini menggunakan fitur `Fetch API` JavaScript untuk memuat file `shop-data.json`, Anda **tidak bisa** membukanya hanya dengan klik ganda file `index.html` di browser (akan terkena pemblokiran CORS). Anda memerlukan **Local Web Server**.
+ * Jalankan local server (Contoh menggunakan Python):
+   python -m http.server 8000
 
-Beberapa opsi web server lokal yang bisa digunakan:
-
-* Ekstensi **Live Server** di Visual Studio Code.
-* Web Server for Chrome.
-* Python (jalankan `python -m http.server` di terminal).
-* Node.js (seperti `http-server` atau `live-server`).
-
-## 🚀 Cara Instalasi & Menjalankan
-
-1. **Clone repository ini ke komputer/HP Anda:**
-```bash
-git clone [https://github.com/mikorayuki/web-shop-2025.git](https://github.com/mikorayuki/web-shop-2025.git)
-
-```
-
-
-2. **Masuk ke direktori project:**
-```bash
-cd web-shop-2025
-
-```
-
-
-3. **Jalankan local server.** (Contoh menggunakan Python):
-```bash
-python -m http.server 8000
-
-```
-
-
-4. Buka browser dan akses alamat: `http://localhost:8000`
-
-## 💡 Contoh Penggunaan
-
-Untuk mengubah nama toko, kontak, atau menambah produk, Anda hanya perlu mengedit file `shop-data.json`.
-
-**Contoh Menambah Produk Baru:**
-Buka `shop-data.json`, lalu pada bagian array `"products"`, tambahkan objek produk baru seperti ini:
-
-```json
+ * Buka browser dan akses alamat: http://localhost:8000
+💡 Contoh Penggunaan
+Untuk mengubah nama toko, kontak, atau menambah produk, Anda hanya perlu mengedit file shop-data.json.
+Contoh Menambah Produk Baru: Buka shop-data.json, lalu pada bagian array "products", tambahkan objek produk baru seperti ini:
 {
   "id": "item-003",
   "categoryId": "apkprem",
@@ -108,20 +104,16 @@ Buka `shop-data.json`, lalu pada bagian array `"products"`, tambahkan objek prod
   "badge": "Promo"
 }
 
-```
-
-*Catatan: Pastikan `categoryId` cocok dengan ID yang ada di dalam daftar `"categories"`. Untuk panduan lebih lengkap, buka file `panduan.html` di browser Anda.*
-
-## 🤝 Kontribusi (Contributing)
-
+Catatan: Pastikan categoryId cocok dengan ID yang ada di dalam daftar "categories". Untuk panduan lebih lengkap, buka file panduan.html di browser Anda.
+🤝 Kontribusi
 Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur, atau meningkatkan tampilan:
+ * Lakukan Fork pada repository ini.
+ * Buat branch fitur baru Anda: git checkout -b fitur-keren-saya
+ * Lakukan commit perubahan Anda: git commit -m 'Menambahkan fitur keren'
+ * Push ke branch tersebut: git push origin fitur-keren-saya
+ * Buka Pull Request di GitHub.
+<div align="center">
+<p>Dibuat dengan ❤️ oleh <a href="https://mikorayuki.my.id">Mikorayuki</a></p>
+</div>
 
-1. Lakukan *Fork* pada repository ini.
-2. Buat branch fitur baru Anda: `git checkout -b fitur-keren-saya`
-3. Lakukan commit perubahan Anda: `git commit -m 'Menambahkan fitur keren'`
-4. Push ke branch tersebut: `git push origin fitur-keren-saya`
-5. Buka **Pull Request** di GitHub.
-
-```
-
-```
+-----
