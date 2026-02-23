@@ -71,7 +71,7 @@ Proyek ini dibangun murni menggunakan teknologi web standar tanpa *framework* ya
 ├── 📄 shop-data.js      # Script untuk mengambil dan memvalidasi JSON
 ├── 📄 shop-data.json    # "Database" utama toko (Konfigurasi info, kategori & produk)
 └── 📄 README.md         # Dokumentasi project ini
-
+```
 📋 Prasyarat Instalasi
 Karena proyek ini menggunakan fitur Fetch API JavaScript untuk memuat file shop-data.json, Anda tidak bisa membukanya hanya dengan klik ganda file index.html di browser (akan terkena pemblokiran aturan CORS).
 Anda memerlukan Local Web Server untuk menjalankannya. Beberapa opsi yang bisa digunakan:
