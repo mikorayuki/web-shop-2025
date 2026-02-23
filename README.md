@@ -122,7 +122,7 @@ Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur,
   <br/>
   <table>
     <tr>
-      <td align="center" style="border: none;">
+      <td align="center" style="border:none;">
         <h3>✨ Attribution & Development</h3>
         <p>Project ini telah dikembangkan kembali (<b>Redeveloped</b>) dengan penuh dedikasi.</p>
         
@@ -130,7 +130,6 @@ Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur,
           <img src="https://img.shields.io/badge/Developed%20By-Mikorayuki-FF69B4?style=for-the-badge&logo=rocket&logoColor=white" alt="Mikorayuki Badge">
         </a>
         <p><i>"Based on an Open Source project with significant UI/UX improvements and performance optimization."</i></p>
-        
         <br/>
         <a href="https://mikorayuki.my.id" target="_blank">
           <img src="https://img.shields.io/badge/🌐_Visit_My_Website-mikorayuki.my.id-blue?style=flat-square" alt="Website">
@@ -138,8 +137,6 @@ Kontribusi sangat dipersilakan! Jika Anda ingin memperbaiki bug, menambah fitur,
       </td>
     </tr>
   </table>
-
   <br/>
-  
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&section=footer" width="100%">
 </div>
